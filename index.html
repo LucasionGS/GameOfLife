@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="game.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <input type="range" id="ps" value="8" min="8" max="64" onchange="update(this.value);">
+  <p id="sizeNumber"></p>
+  <canvas id="game" width="768" height="768"></canvas>
+</body>
+</html>
